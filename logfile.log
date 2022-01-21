@@ -355,3 +355,128 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
 {"level":"info","message":"Listening on port 3000 in test environment..."}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","metadata":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"\n    at model.Query.exec (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4639:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4738:15)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","metadata":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"\n    at model.Query.exec (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4639:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4738:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","metadata":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"\n    at model.Query.exec (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4639:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4738:15)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","metadata":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"\n    at model.Query.exec (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4639:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4738:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","metadata":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genere\"\n    at model.Query.exec (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4639:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\mongoose\\lib\\query.js:4738:15)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at ServerResponse.json (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:267:15)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:158:21)\n    at C:\\Work\\Tutorials\\NodeJS\\vidly\\routes\\genres.js:67:9\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at ServerResponse.json (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:267:15)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:158:21)\n    at C:\\Work\\Tutorials\\NodeJS\\vidly\\routes\\genres.js:67:9\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at validateObjectId (C:\\Work\\Tutorials\\NodeJS\\vidly\\middleware\\validateObjectId.js:6:25)\n    at newFn (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at admin (C:\\Work\\Tutorials\\NodeJS\\vidly\\middleware\\admin.js:6:5)\n    at newFn (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at C:\\Work\\Tutorials\\NodeJS\\vidly\\routes\\genres.js:63:25\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at ServerResponse.json (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:267:15)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:158:21)\n    at C:\\Work\\Tutorials\\NodeJS\\vidly\\routes\\genres.js:67:9\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at ServerResponse.json (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:267:15)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:158:21)\n    at C:\\Work\\Tutorials\\NodeJS\\vidly\\routes\\genres.js:67:9\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at validateObjectId (C:\\Work\\Tutorials\\NodeJS\\vidly\\middleware\\validateObjectId.js:6:25)\n    at newFn (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at admin (C:\\Work\\Tutorials\\NodeJS\\vidly\\middleware\\admin.js:6:5)\n    at newFn (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"error","message":"Cannot set headers after they are sent to the client","metadata":{"code":"ERR_HTTP_HEADERS_SENT"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Work\\Tutorials\\NodeJS\\vidly\\node_modules\\express\\lib\\response.js:170:12)\n    at C:\\Work\\Tutorials\\NodeJS\\vidly\\routes\\genres.js:63:25\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in test environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
