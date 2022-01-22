@@ -13,7 +13,7 @@ router.get('/me', auth, async ( req, res ) => {
     res.send(user);
 });
 
-router.post('/', [auth, validate(validateUser)], async (req, res) => {
+router.post('/', validate(validateUser), async (req, res) => {
     const { error } = validate(req.body);
 
     if ( error ){
