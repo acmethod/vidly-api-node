@@ -1,9 +1,12 @@
 const Fawn = require('fawn');
 const express = require('express');
-const { Rental, validate } = require('../models/rental');
+const { Rental, validateRental } = require('../models/rental');
+const auth = require('../middleware/auth');
+const admin = require('../middleware/admin');
+const validateObjectId = require('../middleware/validateObjectId');
+const validate = require('../middleware/validate');
 const { Customer } = require('../models/customer');
 const { Movie } = require('../models/movie');
-
 
 const router = express.Router();
 
@@ -25,7 +28,7 @@ router.get('/:id',  async (req, res)=>{
     res.send(rental);
 });
 
-router.post('/', async (req, res)=>{
+router.post('/', [auth, validate(validateRental)], async (req, res)=>{
     const {error} = validate(req.body);
     
     if (error){
@@ -80,50 +83,8 @@ router.post('/', async (req, res)=>{
     }
 });
 
-router.put('/:id', async (req, res)=>{
-    const {error} = validate(req.body);
-    
-    if (error){
-        res.status(400).send(error.details[0].message);
-        return;
-    }
-    
-    const movie = await Movie.findById(req.body.movieId);
-    if ( !movie ){
-        res.status(404).send(`Movie with Id ${req.body.movieId} was not found`);
-        return;
-    }
 
-    const customer = await Customer.findById(req.body.customerId);
-    if ( !customer ){
-        res.status(404).send(`Customer with Id ${req.body.customerId} was not found`);
-        return;
-    }
-
-    // third object tells to return the updated obj
-    const rental = await Rental.findByIdAndUpdate(req.params.id, { 
-            movie: {
-                _id: movie._id,
-                name: movie.name,
-                title: movie.title,
-                dailyRentalRate: movie.dailyRentalRate
-            },
-            customer: {
-                _id: customer._id,
-                name: customer.name,
-                phone: customer.phone
-            }
-        }, { new: 1 });
-    
-    if ( !rental ){
-        res.status(404).send(`Movie with Id ${req.params.id} was not found`);
-        return;
-    }
-
-    res.send(rental);
-});
-
-router.delete('/:id', async (req, res)=>{
+router.delete('/:id', [auth, admin], async (req, res)=>{
     const movie = await Rental.findByIdAndRemove( req.params.id )
 
     if ( !movie ){
