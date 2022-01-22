@@ -6,6 +6,7 @@ const rental = require('../routes/rentals');
 const user = require('../routes/users');
 const auth = require('../routes/auth');
 const home = require('../routes/home');
+const returns = require('../routes/returns');
 const error = require('../middleware/error');
 
 function loadRoutes( app ){
@@ -16,6 +17,7 @@ function loadRoutes( app ){
     app.use('/api/rentals', rental);
     app.use('/api/auth', auth);
     app.use('/api/users', user);
+    app.use('/api/returns', returns);
     app.use('/', home);
     
     // Must be at the end of the use statements. Last in the request pipeline

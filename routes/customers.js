@@ -1,4 +1,8 @@
-const { Customer, validate} = require('../models/customer');
+const { Customer, validateCustomer } = require('../models/customer');
+const auth = require('../middleware/auth');
+const admin = require('../middleware/admin');
+const validateObjectId = require('../middleware/validateObjectId');
+const validate = require('../middleware/validate');
 const express = require('express');
 const router = express.Router();
 
@@ -19,14 +23,7 @@ router.get('/:id',  async (req, res)=>{
     res.send(customer);
 });
 
-router.post('/',  async (req, res)=>{
-    const {error} = validate(req.body);
-    
-    if (error){
-        res.status(400).send(error.details[0].message);
-        return;
-    }
-
+router.post('/',  [auth, validate(validateCustomer)], async (req, res)=>{
     const customer = new Customer({isGold: req.body.isGold, name: req.body.name, phone: req.body.phone});
 
     await customer.save();
@@ -34,13 +31,7 @@ router.post('/',  async (req, res)=>{
     res.send(customer);
 });
 
-router.put('/:id',  async (req, res)=>{
-    const {error} = validate(req.body);
-    
-    if (error){
-        res.status(400).send(error.details[0].message);
-        return;
-    }
+router.put('/:id', [auth, validate(validateCustomer)], async (req, res)=>{
     
     // third object tells to return the updated obj
     const customer = await Customer.findByIdAndUpdate(req.params.id, { isGold: req.body.isGold, name: req.body.name, phone: req.body.phone }, {new: true})

@@ -38,5 +38,5 @@ function validateUser( user ){
 }
 
 module.exports.User = User;
-module.exports.validate = validateUser;
+module.exports.validateUser = validateUser;
 module.exports.complexityOptions = complexityOptions;

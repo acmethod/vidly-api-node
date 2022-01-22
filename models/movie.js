@@ -16,7 +16,7 @@ function validateMovie(movie){
 
     const schema = Joi.object({
         title: Joi.string().required().min(5).max(50),
-        genreId: Joi.objectId.required(),
+        genreId: Joi.objectId().required(),
         numberInStock: Joi.number().min(0).required(),
         dailyRentalRate: Joi.number().min(0).required()
     });
@@ -25,4 +25,4 @@ function validateMovie(movie){
 }
 
 module.exports.Movie = Movie;
-module.exports.validate = validateMovie;
+module.exports.validateMovie = validateMovie;

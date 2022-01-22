@@ -1,7 +1,10 @@
 const auth = require('../middleware/auth');
+const admin = require('../middleware/admin');
+const validateObjectId = require('../middleware/validateObjectId');
+const validate = require('../middleware/validate');
 const _ = require('lodash');
 const bcrypt = require('bcrypt');
-const { User, validate } = require('../models/user');
+const { User, validateUser } = require('../models/user');
 const express = require('express');
 const router = express.Router();
 
@@ -10,7 +13,7 @@ router.get('/me', auth, async ( req, res ) => {
     res.send(user);
 });
 
-router.post('/', async (req, res) => {
+router.post('/', [auth, validate(validateUser)], async (req, res) => {
     const { error } = validate(req.body);
 
     if ( error ){

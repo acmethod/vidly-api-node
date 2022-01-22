@@ -1,9 +1,9 @@
+const validate = require('../middleware/validate');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
 const validateObjectId = require('../middleware/validateObjectId');
-const { Genre, validate } = require('../models/genre');
+const { Genre, validateGenre } = require('../models/genre');
 const express = require('express');
-const mongoose = require('mongoose');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
@@ -22,14 +22,8 @@ router.get('/:id', validateObjectId, async (req, res)=>{
     res.send(genre);
 });
 
-router.post('/', auth, async (req, res)=>{
-    const {error} = validate(req.body);
+router.post('/', [auth, validate(validateGenre)], async (req, res)=>{
     
-    if (error){
-        res.status(400).send(error.details[0].message);
-        return;
-    }
-
     const  genre = new Genre({name: req.body.name});
 
     await genre.save();
@@ -37,7 +31,7 @@ router.post('/', auth, async (req, res)=>{
     res.send(genre);
 });
 
-router.put('/:id', [auth, validateObjectId], async (req, res)=>{
+router.put('/:id', [auth, validateObjectId, validate(validateGenre)], async (req, res)=>{
     const {error} = validate(req.body);
     
     if (error){
