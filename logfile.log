@@ -1685,3 +1685,7 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
 {"level":"info","message":"Listening on port 3000 in test environment..."}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests..."}
+{"level":"info","message":"Listening on port 3000 in development environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly..."}
+{"level":"info","message":"Listening on port 3000 in development environment..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly..."}
