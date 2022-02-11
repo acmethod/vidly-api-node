@@ -8,8 +8,10 @@ const auth = require('../routes/auth');
 const home = require('../routes/home');
 const returns = require('../routes/returns');
 const error = require('../middleware/error');
+const cors = require('cors');
 
 function loadRoutes( app ){
+    app.use(cors());
     app.use(express.json());                            // Middleware to parses in JSON, and returs the requst. Needs to be before routes
     app.use('/api/genres', genres);
     app.use('/api/customers', customers);
