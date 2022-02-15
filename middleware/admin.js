@@ -1,3 +1,5 @@
+const config = require('config');
+
 function admin ( req, res, next ){
 
     if (!config.get("requiresAuth")) return next();
