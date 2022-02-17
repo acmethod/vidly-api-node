@@ -25,8 +25,6 @@ router.get('/:id', async (req, res)=>{
 
 router.post('/', [auth, validate(validateMovie)], async (req, res)=>{
     const {error} = validate(req.body);
-    
-    console.log(req);
 
     if (error){
         res.status(400).send(error.details[0].message);
@@ -38,9 +36,7 @@ router.post('/', [auth, validate(validateMovie)], async (req, res)=>{
         res.status(404).send(`Genre with Id ${req.params.genreId} was not found`);
         return;
     }
-
-    console.log(genre);
-
+    
     const movie = new Movie({
         title: req.body.title,
         genre: {
@@ -50,8 +46,6 @@ router.post('/', [auth, validate(validateMovie)], async (req, res)=>{
         numberInStock: req.body.numberInStock,
         dailyRentalRate: req.body.dailyRentalRate
     });
-
-    console.log(movie);
 
     await movie.save();
 
